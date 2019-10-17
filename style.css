@@ -45,9 +45,10 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 20px;
-    padding-left: 40px;
+    padding-left: 1.2rem;
     text-transform: uppercase;
 }
+
 @media (max-width: 992px) and (min-width: 768px) {
     .tiles .link-tiles a {
         padding-left: 15px;
@@ -69,12 +70,12 @@
    }
 }
 .link-tiles a:after {
-    content: '+';
-    top: 38%;
+    font-family: FontAwesome;
+    content: "\f0c1";
+    top: 42%;
     right: 30px;
     position: absolute;
-    font-size: 73px;
-    font-weight: 300;
+    font-size: 1.5rem;
 }
 .link-tiles:hover {
     background: #333;
@@ -86,13 +87,13 @@
 @media (max-width: 992px) and (min-width: 768px) {
     .tiles .link-tiles a:after {
         right: 15px;
-        font-size: 30px;
+        font-size: 1.2rem;
    }
 }
 @media (max-width: 768px) {
     .link-tiles a:after {
-        right: 10px;
-        font-size: 30px;
+        right: 0.8rem;
+        font-size: 1.2rem;
    }
 }
 .link-tiles:hover a {
